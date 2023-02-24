@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My test page</title>
-</head>
+    <title>二次元俱乐部</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
 
-<body>
-    <p><a href="https://mw.lvyoyu.top" title="这是我的网页"> is my page</a></p>
-    <a href="https://mw.lvyoyu.top"><img src="./images/firefox-icon.png" alt="firefox-icon"></a>
-    <p><a href="https://www.example.com/large-report.pdf">
-            下载销售报告(PDF, 10MB)
-        </a></p>
+  <body>
+    <header> <!-- 本站所有网页的统一主标题 -->
+      <h1>聆听电子天籁之音</h1>
+    </header>
 
-    <p><a href="https://www.example.com/video-stream/" target="_blank">
-            观看视频(将在新标签页中播放,HD 画质）
-        </a></p>
+    <nav> <!-- 本站统一的导航栏 -->
+      <ul>
+        <li><a href="#">主页</a></li>
+        <!-- 共 n 个导航栏项目，省略…… -->
+      </ul>
 
-    <p><a href="https://www.example.com/car-game">
-            进入汽车游戏（需要 Flash 插件）
-        </a></p>
-    <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN"
-        download="firefox-latest-64bit-installer.exe">
-        下载最新的 Firefox 中文版 - Windows(64 位）
-    </a>
+      <form> <!-- 搜索栏是站点内导航的一个非线性的方式。 -->
+        <input type="search" name="q" placeholder="要搜索的内容">
+        <input type="submit" value="搜索">
+      </form>
+    </nav>
 
+    <main> <!-- 网页主体内容 -->
+      <article>
+        <!-- 此处包含一个 article（一篇文章），内容略…… -->
+      </article>
 
-</body>
+      <aside> <!-- 侧边栏在主内容右侧 -->
+        <h2>相关链接</h2>
+        <ul>
+          <li><a href="#">这是一个超链接</a></li>
+          <!-- 侧边栏有 n 个超链接，略略略…… -->
+        </ul>
+      </aside>
+    </main>
 
+    <footer> <!-- 本站所有网页的统一页脚 -->
+      <p>© 2050 某某保留所有权利</p>
+    </footer>
+  </body>
 </html>
